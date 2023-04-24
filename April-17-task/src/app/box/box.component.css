@@ -1,0 +1,23 @@
+.head
+{
+    color:rgb(202, 206, 142);
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+}
+/* :host
+{
+    display: flex;
+    flex-direction: column;
+    padding:30px;
+    width:500px;
+    
+} */
+button
+{
+    background-color:rgb(137, 127, 72) ! important;
+    color:rgb(178, 101, 101)  
+}
+h1{
+    text-align: center;
+}

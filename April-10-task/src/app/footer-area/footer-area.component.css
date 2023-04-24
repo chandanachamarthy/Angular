@@ -1,0 +1,27 @@
+.para{
+    padding-top:320px;
+    /* height: 288% ; */
+    background-color: rgb(52, 188, 72);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+    /* display: fixed; */
+   
+}
+.head{
+   width:200px;
+   height:150px;
+   margin:20px;
+   box-sizing: border-box; 
+}
+.img1{
+    margin-top:30px;
+    padding-left:80px;
+    font-size: xxx-large;
+    border-radius: 50%;
+    color:rgb(81, 79, 72);
+
+    
+}
