@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form fill</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<button id="open">Click Here</button>
+    <div id="contact-modal" class="model">
+        <div id="modal-content">
+            <div id="modal-header">
+                <button class="close-modal">close</button>
+                <h2>Take the servey</h2>
+            </div>
+            <div id="modal-body">
+                <form>
+                    <div class="form-group">
+                        <label>First Name</label>
+                        <input type="text" placeholder="enter your First Name">
+                    </div>
+                    <div class="form-group">
+                        <label>Last Name</label>
+                        <input type="text" placeholder="enter your Last Name">
+                    </div>
+                    <div class="form-group">
+                        <label>City</label>
+                        <input type="text" placeholder="enter your city">
+                    </div>
+                    <div class="form-group">
+                        <label>Age</label>
+                        <input type="number" placeholder="enter your Age">
+                    </div>
+                    <div class="form-group">
+                        <label>Experience</label>
+                        <input type="number" placeholder="enter experience in years">
+                    </div>
+                    <div class="form-group">
+                        <label>Date of birth</label>
+                        <input type="date" placeholder="enter your date of birth">
+                    </div>
+                    <div class="form-group">
+                        <label>About</label>
+                        <input type="text" placeholder="enter few lines about you">
+                    </div>
+                    <h4 class="heading">choose the gender</h4>
+                    <div class="form-group1">
+                        <input type="radio" name="identity" id="Gender1" value="Gender">
+                        <label for="Gender">Female</label>
+                        <input type="radio" name="identity" id="Gender2" value="Gender">
+                        <label for="Gender">Male</label>
+                    </div>
+                    <h4 class="heading1">choose languages known</h4>
+                    <div class="checkbox">
+                        <input type="checkbox" name="knowledge" id="lan1" value="lan">
+                        <label for="lan">C#</label>
+                        <input type="checkbox" name="knowledge" id="lan2" value="lan">
+                        <label for="lan">Java</label>
+                        <input type="checkbox" name="knowledge" id="lan3" value="lan">
+                        <label for="lan">python</label>
+                        <input type="checkbox" name="knowledge" id="lan4" value="lan">
+                        <label for="lan">Angular</label>
+                        <input type="checkbox" name="knowledge" id="lan" value="lan">
+                        <label for="lan">Java Script</label>
+                    </div>
+                    <input type="submit" value="Submit">
+                </form>
+
+
+
+            </div>
+        </div>
+    </div>
+
+    <script src="effects.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,115 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(rgb(143, 163, 234),rgb(97, 128, 159),rgb(11, 52, 71));
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: fixed;
+}
+#open{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    /* transition: background 0.3s; */
+}
+#open,input[type='submit'],.close-modal{
+    font-size:16px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    color:white;
+    padding:8px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color:  rgb(67, 141, 140);;
+
+}
+#open:hover{
+    background: #6fc4dc;
+}
+#contact-modal{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.25);
+}
+#modal-content{
+    background: #98c9ad;
+    margin:15px auto;
+    width:45%;
+    box-shadow: 4px 4px 5px rgba(0,0,0,0.25);
+    height:580px;
+}
+#modal-header{
+    background:rgb(49, 134, 132);
+    color: #fff;
+    padding:10px 30px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.close-modal{
+    padding-left:20px;
+    font-size: 10px;
+    float: right;
+    font-weight:bold;
+    text-align:center;
+}
+.close-modal:hover{
+color: rgb(5, 54, 77);
+cursor: pointer;
+}
+.form-group{
+    background-position: fixed;
+    width: 85%;
+    margin: 5px 0;
+    margin-left: 15.5%;
+    /*text-align: center;*/
+} 
+.form-group label{
+     display: block;
+     margin-bottom:2px;
+     font-size: 12px;
+     font-weight: bold;
+}
+.form-group input, textarea{
+    width: 85%;
+    padding: 8px 10px ;
+    border: none;
+    border-radius: 10px;
+    /* font-size: px; */
+    text-align: center;
+}
+.heading{
+text-align: center;
+}
+.heading1{
+    margin-top: 2px;
+    text-align: center;
+}
+.form-group1{
+    margin-top:5px;
+/* padding-left: 100px; */
+text-align: center;
+}
+.checkbox{
+    margin-top:5px;
+    padding-left:100px;
+}
+input[type='submit']{
+    margin-top:5px;
+    margin-bottom:8px;
+    width: 75%;
+    margin-left: 12.5%;
+    /* transition: background 0.3s; */
+}
+input[type='submit']:hover{
+    background:#3ba350;
+}

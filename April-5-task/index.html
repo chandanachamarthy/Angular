@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>The Nature</h1>
+    <section>
+        <img src="" id="image">
+    </section>
+    <script>
+        var section = document.querySelector('section')
+        var images = [
+            "url('image1.jpg')",
+            "url('image2.jpg')",
+            "url('image3.jpg')",
+            "url('image4.jpg')",
+            "url('image5.jpg')"
+        ]  
+        setInterval(function () {
+            var bg = images[Math.floor(Math.random() * images.length)]
+            section.style.background = bg
+            section.style.backgroundRepeat="no-repeat";
+            section.style.boxSizing='border-box';
+        }, 1000)
+    </script>
+
+
+
+</body>
+
+</html>
