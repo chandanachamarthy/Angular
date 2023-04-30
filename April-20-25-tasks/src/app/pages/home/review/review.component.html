@@ -1,0 +1,17 @@
+<form [formGroup]="reviewForm" class="rform" (submit)="saveReview()">
+  <h2>Write a review</h2>
+  <mat-form-field appearance="fill">
+    <mat-label>Name</mat-label>
+    <input matInput formControlName="name">
+  </mat-form-field>
+  <mat-form-field appearance="fill">
+    <mat-label>Review</mat-label>
+    <textarea matInput formControlName="review"></textarea>
+  </mat-form-field>
+
+
+  <div style="text-align:center">
+    <button type="submit" class="btn btn-success">Post Review</button>
+  </div>
+
+</form>

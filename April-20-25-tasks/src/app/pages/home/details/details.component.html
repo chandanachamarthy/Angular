@@ -1,0 +1,14 @@
+<div class="details">
+    <h1>{{details.name}}</h1>
+
+    <div class="image">
+        <img src="http://localhost/{{products.image}}" />
+    </div>
+
+    <p>{{details.des}}</p>
+    
+    <app-review></app-review>
+</div>
+<div class="viewreview">
+    <app-viewreview [prdid]="id"></app-viewreview>
+</div>

@@ -1,0 +1,19 @@
+<a routerLink="/details/{{products.id}}">
+    <div class="style">
+        <div class="service-box">
+
+            <div class="image-holder">
+                <img src="http://localhost/{{products.image}}">
+            </div>
+
+            <div class="text">
+                {{products.name}}
+                <br>
+                {{products.price | currency:'INR'}}
+            </div>
+            <!-- <div class="price"> -->
+            <!-- {{products.price}} -->
+            <!-- </div> -->
+        </div>
+    </div>
+</a>

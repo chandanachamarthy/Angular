@@ -1,0 +1,307 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "waching machine",
+      "price": 45000,
+      "image": "machine.jpg",
+      "type": "electronics",
+      "description": "The machine that have multi functionality"
+    },
+    {
+      "id": 2,
+      "name": "refrigirator",
+      "price": 55000,
+      "image": "machine2.jpg",
+      "type": "electronics",
+      "description": "The machine that have multi functionality"
+    },
+    {
+      "id": 3,
+      "name": "telivision",
+      "price": 55000,
+      "image": "machine1.jpg",
+      "type": "electronics",
+      "description": "The machine that have multi functionality"
+    },
+    {
+      "id": 4,
+      "name": "iPhone 13",
+      "price": 999,
+      "image": "iphone13.jpg",
+      "type": "electronics",
+      "description": "The latest iPhone with a new A15 chip, ProMotion display, and improved cameras."
+    },
+    {
+      "id": 5,
+      "name": "L'Oreal Paris Mascara",
+      "price": 800,
+      "image": "lorealmascara.jpg",
+      "type": "cosmetics",
+      "description": "Voluminous Lash Paradise mascara for voluptuous volume, length, and full lash fringe."
+    },
+    {
+      "id": 6,
+      "name": "Bananas",
+      "price": 50,
+      "image": "bananas.jpg",
+      "type": "groceries",
+      "description": "Fresh, ripe bananas that are great for smoothies, baking, or just eating as a snack."
+    },
+    {
+      "id": 7,
+      "name": "To Kill a Mockingbird",
+      "price": 500,
+      "image": "tokillamockingbird.jpg",
+      "type": "books",
+      "description": "A classic novel by Harper Lee that explores race, class, and justice in the American South."
+    },
+    {
+      "id": 8,
+      "name": "Samsung Galaxy S21",
+      "price": 55000,
+      "image": "samsungs21.jpg",
+      "type": "electronics",
+      "description": "The latest Samsung Galaxy phone with 5G connectivity, a 120Hz display, and a high-powered camera."
+    },
+    {
+      "id": 9,
+      "name": "Maybelline SuperStay Lipstick",
+      "price": 500,
+      "image": "maybellinelipstick.jpg",
+      "type": "cosmetics",
+      "description": "SuperStay Matte Ink liquid lipstick that lasts up to 16 hours without fading or smudging."
+    },
+    {
+      "id": 10,
+      "name": "Organic Spinach",
+      "price": 50,
+      "image": "organicspinach.jpg",
+      "type": "groceries",
+      "description": "Fresh, organic spinach that's packed with nutrients and perfect for salads, smoothies, or sautéing."
+    },
+    {
+      "id": 11,
+      "name": "The Great Gatsby",
+      "price": 600,
+      "image": "thegreatgatsby.jpg",
+      "type": "books",
+      "description": "A classic novel by F. Scott Fitzgerald that explores the decadence and excess of the Jazz Age."
+    },
+    {
+      "id": 12,
+      "name": "Sony WH-1000XM4 Headphones",
+      "price": 900,
+      "image": "sonyheadphones.jpg",
+      "type": "electronics",
+      "description": "Noise-cancelling headphones with advanced sound quality, touch controls, and long battery life."
+    },
+    {
+      "id": 13,
+      "name": "Guavas",
+      "price": 40,
+      "image": "guavas.jpg",
+      "type": "groceries",
+      "description": "Fresh, guavas that are great for smoothies, baking, or just eating as a snack."
+    },
+    {
+      "id": 14,
+      "name": "cashew",
+      "price": 800,
+      "image": "cashew.jpg",
+      "type": "groceries",
+      "description": "Fresh, cashewvthat are great for smoothies, baking, or just eating as a snack."
+    },
+    {
+      "id": 15,
+      "name": "Apple AirPods Pro",
+      "price": 5000,
+      "image": "airpodspro.jpg",
+      "type": "electronics",
+      "description": "Wireless earbuds with active noise cancellation, transparency mode, and customizable fit."
+    },
+    {
+      "id": 16,
+      "name": "Google Nest Hub",
+      "price": 600,
+      "image": "nesthub.jpg",
+      "type": "electronics",
+      "description": "A smart display that can control your smart home devices, play music, and show you the news."
+    },
+    {
+      "id": 17,
+      "name": " Ultra-Light Sunscreen Fluid SPF 60",
+      "price": 750,
+      "image": "sunscreen.jpg",
+      "type": "cosmetics",
+      "description": "A lightweight sunscreen that provides broad-spectrum UVA/UVB protection and is water-resistant for up to 80 minutes."
+    },
+    {
+      "id": 18,
+      "name": "Oats & Honey with Toasted Coconut",
+      "price": 900,
+      "image": "granola.jpg",
+      "type": "groceries",
+      "description": "A granola that contains 5 super grains, including oats, millet, and buckwheat, and is sweetened with honey and toasted coconut."
+    },
+    {
+      "id": 19,
+      "name": "Becoming by Michelle Obama",
+      "price": 1000,
+      "image": "becoming.jpg",
+      "type": "books",
+      "description": "The memoir of former First Lady Michelle Obama, in which she reflects on her life, her accomplishments, and the challenges she faced along the way."
+    },
+    {
+      "id": 20,
+      "name": "The Dutch House by Ann Patchett",
+      "price": 400,
+      "image": "dutchhouse.jpg",
+      "type": "books",
+      "description": "A novel about a brother and sister who are exiled from their family home by their stepmother, and who spend their lives trying to regain what they lost."
+    },
+    {
+      "id": 21,
+      "name": "Grapes",
+      "price": 60,
+      "image": "grapes.jpg",
+      "type": "groceries",
+      "description": "Fresh, grapes that are great for smoothies, baking, or just eating as a snack."
+    }
+  ],
+  "details": [
+    {
+      "id": 1,
+      "name": "waching machine",
+      "des": "The machine that have multi functionality"
+    },
+    {
+      "id": 2,
+      "name": "refrigirator",
+      "des": "The machine that have multi functionality"
+    },
+    {
+      "id": 3,
+      "name": "telivision",
+      "des": "The machine that have multi functionality"
+    },
+    {
+      "id": 4,
+      "name": "iPhone 13",
+      "des": "The latest iPhone with a new A15 chip, ProMotion display, and improved cameras."
+    },
+    {
+      "id": 5,
+      "name": "L'Oreal Paris Mascara",
+      "des": "Voluminous Lash Paradise mascara for voluptuous volume, length, and full lash fringe."
+    },
+    {
+      "id": 6,
+      "name": "Bananas",
+      "des": "Fresh, ripe bananas that are great for smoothies, baking, or just eating as a snack."
+    },
+    {
+      "id": 7,
+      "name": "To Kill a Mockingbird",
+      "des": "A classic novel by Harper Lee that explores race, class, and justice in the American South."
+    },
+    {
+      "id": 8,
+      "name": "Samsung Galaxy S21",
+      "des": "The latest Samsung Galaxy phone with 5G connectivity, a 120Hz display, and a high-powered camera."
+    },
+    {
+      "id": 9,
+      "name": "Maybelline SuperStay Lipstick",
+      "des": "SuperStay Matte Ink liquid lipstick that lasts up to 16 hours without fading or smudging."
+    },
+    {
+      "id": 10,
+      "name": "Organic Spinach",
+      "des": "Fresh, organic spinach that's packed with nutrients and perfect for salads, smoothies, or sautéing."
+    },
+    {
+      "id": 11,
+      "name": "The Great Gatsby",
+      "des": "A classic novel by F. Scott Fitzgerald that explores the decadence and excess of the Jazz Age."
+    },
+    {
+      "id": 12,
+      "name": "Sony WH-1000XM4 Headphones",
+      "des": "Noise-cancelling headphones with advanced sound quality, touch controls, and long battery life."
+    },
+    {
+      "id": 13,
+      "name": "Guavas",
+      "des": "Fresh, guavas that are great for smoothies, baking, or just eating as a snack."
+    },
+    {
+      "id": 14,
+      "name": "cashew",
+      "des": "Fresh, cashewvthat are great for smoothies, baking, or just eating as a snack."
+    },
+    {
+      "id": 15,
+      "name": "Apple AirPods Pro",
+      "des": "Wireless earbuds with active noise cancellation, transparency mode, and customizable fit."
+    },
+    {
+      "id": 16,
+      "name": "Google Nest Hub",
+      "des": "A smart display that can control your smart home devices, play music, and show you the news."
+    },
+    {
+      "id": 17,
+      "name": " Ultra-Light Sunscreen Fluid SPF 60",
+      "des": "A lightweight sunscreen that provides broad-spectrum UVA/UVB protection and is water-resistant for up to 80 minutes."
+    },
+    {
+      "id": 18,
+      "name": "Oats & Honey with Toasted Coconut",
+      "des": "A granola that contains 5 super grains, including oats, millet, and buckwheat, and is sweetened with honey and toasted coconut."
+    },
+    {
+      "id": 19,
+      "name": "Becoming by Michelle Obama",
+      "des": "The memoir of former First Lady Michelle Obama, in which she reflects on her life, her accomplishments, and the challenges she faced along the way."
+    },
+    {
+      "id": 20,
+      "name": "The Dutch House by Ann Patchett",
+      "des": "A novel about a brother and sister who are exiled from their family home by their stepmother, and who spend their lives trying to regain what they lost."
+    },
+    {
+      "id": 21,
+      "name": "Grapes",
+      "des": "Fresh, grapes that are great for smoothies, baking, or just eating as a snack."
+    }
+  ],
+  "complaints": [
+    {
+      "id": 64702,
+      "fname": "pooja",
+      "email": "pooja@gmail.com",
+      "message": "qsxcyfqcxy qvxqdtqwdx djhvxwwdx qeexvjvdxjwdx qxvuvxjkqw"
+    },
+    {
+      "id": 5507,
+      "fname": "hemu",
+      "email": "chandanachamarthy119@gmail.com",
+      "message": "the product life is very low needed to be improved"
+    }
+  ],
+  "reviews": [
+    {
+      "product_id": "2",
+      "review": "ghafha",
+      "name": "gdghca",
+      "id": 1
+    },
+    {
+      "product_id": "3",
+      "review": "very nice product",
+      "name": "chandana chamarthy",
+      "id": 2
+    }
+  ]
+}

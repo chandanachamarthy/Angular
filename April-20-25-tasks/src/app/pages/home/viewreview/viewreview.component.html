@@ -1,0 +1,13 @@
+<mat-card class="example-card">
+    <mat-card-title class="title">Customer Reviews</mat-card-title>
+
+
+    <mat-card-content>
+        <div *ngFor="let x of reviews">
+            <div class="review_content" *ngIf="prdid==x.product_id">
+                <div class="name">{{x.name}} ,</div>
+                <div class="content">"{{x.review}}"</div>
+            </div>
+        </div>
+    </mat-card-content>
+</mat-card>
